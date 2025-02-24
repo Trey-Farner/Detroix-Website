@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f3f5;
+}
+
+/*banner*/
+
+.banner {
+    display: flex;
+    background: #0b0b31;
+    height: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+
+    & ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    & li {
+        padding: 0px 1em;
+        border-right: 1px solid #fff;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    & .webLink {
+        border-right: 1px solid #fff;
+        padding-right: 1rem;
+    }
+}
+
+/*header*/ 
+
+.header {
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+
+    & .logo {
+        width: 300px;
+        height: max-content;
+    }
+
+    & ul {
+        list-style-type: none;
+        display: flex;
+        align-items: end;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    & li {
+        background: #0b0b31;
+        padding: 1em;
+        border-radius: 5px;
+
+        &:hover {
+            background: #ff8901;
+            padding: 1em;
+            border-radius: 5px;
+        }
+
+    }
+
+    & a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.thinkBig {
+    display: flex;
+    justify-self: center;
+
+    & img {
+        width: 80vw;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px 0px;
+}
+
+.buttons {
+    background: #808080;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+
+    &:hover {
+        background: #ff8901;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+    }
+}
+
+/*About Cards*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 80vw;
+    border-top: 1px solid #808080;
+
+    & .cardStrong {
+        border-left: 1px solid #808080;
+        border-right: 1px solid #808080;
+    }
+
+    & .cardStrong, .cardStable {
+        padding: 0 0 1rem 1rem;  
+    }
+
+    & img {
+        width: 25vw;
+    }
+
+    & button {
+        padding: 1em;
+        background: #0b0b31;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: larger;
+
+        &:hover {
+            padding: 1em;
+            background: #ff8901;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: larger;
+        }
+    }
+}
+
+/*end section*/
+
+.endSection {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #1d2e41, #0f1821);
+    color: #fff;
+    padding: 1rem;
+
+    & button {
+        padding: 1rem;
+        border: none;
+        background: #808080;
+        border-radius: 5px;
+    }
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25vw;
+    padding: 1rem;
+
+    & h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+[class^="dateBox"] {
+    padding: 5px 20px;
+    border-radius: 10px;
+
+    & .day {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    & .month {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.dateBox1 {
+    background: #be8542;
+}
+
+.dateBox2 {
+    background: #bc6142;
+}
+
+.dateBox3 {
+    background: #bd425e;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    background: #0e1e31;
+    color: #fff;
+    justify-content: center;
+
+    & p {
+        width: 80vw;
+    }
+}
