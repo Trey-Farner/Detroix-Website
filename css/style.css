@@ -69,10 +69,7 @@ body {
 
         &:hover {
             background: #ff8901;
-            padding: 1em;
-            border-radius: 5px;
         }
-
     }
 
     & a {
@@ -105,9 +102,6 @@ body {
 
     &:hover {
         background: #ff8901;
-        height: 25px;
-        width: 25px;
-        border-radius: 100%;
     }
 }
 
@@ -156,12 +150,7 @@ body {
         font-size: larger;
 
         &:hover {
-            padding: 1em;
             background: #ff8901;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: larger;
         }
     }
 }
